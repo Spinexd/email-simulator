@@ -1,0 +1,235 @@
+.container {
+    display:flex;
+    flex-flow:row wrap;
+
+}
+.container div {
+
+    padding: 10px;
+}
+
+.headerBox i {
+    padding: .3rem;
+}
+
+.headerBox {
+  
+  order:1;
+  height:50px;
+  flex:0 1 100%;
+  border: 1px #ccc solid;
+
+}
+
+.navBox{
+
+    order:2;
+    flex: 0 1 200px;
+    border: 1px #ccc solid;
+}
+
+.fix {
+display:inline-block;
+}
+.mainBox {
+    order:3;
+    flex: 1;
+    min-height:500px;
+    border: 1px #ccc solid;
+    
+}
+
+.headerTitle {
+    font-size: 20px;
+    border: 1px #ccc solid;
+}
+
+.burgerEnvelope {
+    font-size: 30px;
+    
+}
+header {
+  display: block;
+  width: 100%;
+  position: relative;
+}
+
+.searchBarContainer {
+  position: absolute;
+  width: 390px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 0;
+  border: 1px solid #ccc;
+  height: 35px;
+  font-size: 20px;
+
+}
+
+
+.searchBar {
+    display: inline-block;
+    width: 300px;
+    position: relative;
+    left: 0;
+    right: 0;
+    height: 30px;
+    font-size: 15px;
+    border: none;
+}
+
+li {
+    list-style:none;
+}
+
+.sideBarOptions {
+    border: none;
+    font-size: 15px;
+    outline-color: #ccc;
+    width: 100%;
+    text-align: left;
+}
+.sideBarOptions:hover{
+    background-color: #ccc;
+}
+
+.boxContent {
+    justify-content: left;
+    padding: 0;
+    
+}
+
+
+/*.newMailContainer {
+    
+    
+}
+.newMailContainer:hover {
+    background-color: #ccc;
+}*/
+.newMailPlus:hover {
+    background-color: #ccc;
+    
+}
+.newMailPlus {
+    border: none;
+    font-size: 20px;
+    border: 2px solid rgb(58, 56, 56);
+    border-radius: 10%;
+    width: 100%;
+    height: 60px;
+    
+}
+
+.burger {
+    border: none;
+    font-size: 35px;
+}
+.envelope {
+    border: none;
+    font-size: 35px;
+}
+.searchClick {
+    border: none;
+    font-size: 15px; 
+}
+.more {
+    border: none;
+    font-size: 15px; 
+}
+
+.displayMails {
+    display: flex;
+    
+    
+}
+
+.column {
+    border: 1px solid black;
+    flex: 1;
+    flex: 0 1 20%;
+    text-align: left;
+    
+}
+
+.column2 {
+    border: 1px solid black;
+    flex: 2;
+    flex:0 1 75%;
+    width: 60vw;
+    height:60vw;
+    
+
+}
+
+.column2 h1{
+    font-size: 30px;
+    margin: auto;
+} 
+
+.displayContent {
+    display: flex;
+    position: relative;
+    margin: 0;
+
+
+}
+td,
+th {
+    border: 1px solid;
+    padding: 10px;
+    
+    
+    
+    
+}
+
+td {
+    text-align: center;
+    
+}
+
+tr:nth-child(even) {
+    
+}
+
+th[scope="col"] {
+   margin: 10px;
+
+}
+
+tr {
+    margin: 3px;
+    display: inline-block;
+    height: 35px;
+}
+
+caption {
+    padding: 10px;
+    caption-side: bottom;
+}
+
+table {
+    border-collapse: collapse;
+
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    font-size: .8rem;
+}
+
+.checkBox {
+    border: none;
+    padding: 0;
+    font-size: 15px;
+}
+
+.starred {
+    border: none;
+    padding: 0;
+    font-size: 15px;
+}
+
+.openMail {
+    border: none;
+}
